@@ -12,7 +12,7 @@ const HeroSection = () => {
       <div className="container mx-auto px-6 text-center text-white">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
-            John Developer
+            Yogesh Kimari
           </h1>
           <h2 className="text-xl md:text-2xl font-light mb-8 text-white/90">
             Software Developer & Embedded Systems Engineer
