@@ -2,41 +2,38 @@ import { GraduationCap, Award, Calendar } from "lucide-react";
 
 const education = [
   {
-    degree: "Bachelor of Science in Computer Engineering",
-    school: "University of Technology",
-    location: "California, USA",
-    period: "2014 - 2018",
-    gpa: "3.8/4.0",
+    degree: "B.Tech in Electronics and Communcation Engineering",
+    school: "SRM Institute of Science and Technology",
+    location: "Kattankulathur, Tamil Nadu, India",
+    period: "2021 - 2025",
+    gpa: "9.2/10",
     achievements: [
-      "Magna Cum Laude Graduate",
-      "Dean's List for 6 consecutive semesters",
-      "Outstanding Senior Project Award"
+      "First class with Distinction graduate"
     ],
     coursework: [
       "Data Structures & Algorithms",
-      "Computer Architecture",
-      "Embedded Systems Design",
-      "Software Engineering",
-      "Database Systems",
-      "Network Programming"
+      "Engineering Mathematics",
+      "Operating Systems",
+      "Embedded Systems",
+      "Python and Scientific Python",
+      "Signals and Systems",
+      "Computer Networks",
+      "Analog and Digital Communications",
+      "Wireless Communications"
     ]
   },
   {
-    degree: "High School Diploma",
-    school: "Central High School",
-    location: "California, USA",
-    period: "2010 - 2014",
-    gpa: "4.0/4.0",
-    achievements: [
-      "Valedictorian",
-      "National Honor Society",
-      "Computer Science Club President"
-    ],
+    degree: "Senior Secondary School",
+    school: "Gurukul International School",
+    location: "Haldwani, Uttarakhand, India",
+    period: "2018-2020",
+    gpa: "94/100",
     coursework: [
-      "AP Computer Science",
-      "AP Calculus BC",
-      "AP Physics C",
-      "AP Chemistry"
+      "Physics",
+      "Chemistry",
+      "Maths",
+      "English",
+      "Physical Education"
     ]
   }
 ];
