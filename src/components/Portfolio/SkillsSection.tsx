@@ -9,27 +9,27 @@ const skills = [
   {
     category: "Backend",
     icon: Database,
-    technologies: ["Node.js", "Python", "PostgreSQL", "MongoDB", "REST APIs", "GraphQL"]
+    technologies: ["Node.js", "Python", "PostgreSQL", "MongoDB"]
   },
   {
     category: "Programming",
     icon: Code,
-    technologies: ["JavaScript", "TypeScript", "Python", "C++", "Java", "SQL"]
+    technologies: ["JavaScript", "TypeScript", "Python", "C++", "SQL"]
   },
   {
     category: "Embedded",
     icon: Cpu,
-    technologies: ["Arduino", "Raspberry Pi", "Microcontrollers", "IoT", "C/C++", "RTOS"]
+    technologies: ["Arduino", "Raspberry Pi", "Microcontrollers", "C/C++", "RTOS"]
   },
   {
     category: "Tools",
     icon: Terminal,
-    technologies: ["Git", "Docker", "Linux", "VS Code", "Postman", "Figma"]
+    technologies: ["Git", "Docker", "Linux", "VS Code", "Postman"]
   },
   {
     category: "Other",
     icon: Zap,
-    technologies: ["Agile", "Testing", "CI/CD", "AWS", "Problem Solving", "Team Leadership"]
+    technologies: ["Testing", "CI/CD", "AWS", "Problem Solving", "Team Leadership"]
   }
 ];
 
