@@ -1,4 +1,4 @@
-import profileImage from "@/assets/profile-placeholder.jpg";
+import profileImage from "@/assets/PHOTO.jpeg";
 
 const AboutSection = () => {
   return (
