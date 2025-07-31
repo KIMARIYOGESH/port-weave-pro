@@ -17,14 +17,14 @@ const Footer = () => {
             
             <div className="flex space-x-6">
               <a 
-                href="mailto:john.developer@email.com"
+                href="mailto:yogesh.kimari@email.com"
                 className="group flex items-center justify-center w-12 h-12 bg-white/10 rounded-lg hover:bg-white/20 transition-all duration-300"
                 aria-label="Email"
               >
                 <Mail className="group-hover:scale-110 transition-transform" size={20} />
               </a>
               <a 
-                href="https://linkedin.com/in/johndeveloper"
+                href="https://linkedin.com/in/yogeshkimari"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center justify-center w-12 h-12 bg-white/10 rounded-lg hover:bg-white/20 transition-all duration-300"
@@ -33,7 +33,7 @@ const Footer = () => {
                 <Linkedin className="group-hover:scale-110 transition-transform" size={20} />
               </a>
               <a 
-                href="https://github.com/johndeveloper"
+                href="https://github.com/yogeshkimari"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center justify-center w-12 h-12 bg-white/10 rounded-lg hover:bg-white/20 transition-all duration-300"
