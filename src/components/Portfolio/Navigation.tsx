@@ -40,7 +40,7 @@ const Navigation = () => {
             onClick={() => scrollToSection('hero')}
             className="text-xl font-bold text-foreground hover:text-primary transition-colors"
           >
-            YOGESH KIMARI
+            YK
           </button>
 
           {/* Desktop Navigation */}
