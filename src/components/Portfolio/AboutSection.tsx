@@ -13,8 +13,8 @@ const AboutSection = () => {
             <div className="space-y-6">
               <p className="text-lg text-muted-foreground leading-relaxed">
                 I'm a passionate software developer and embedded systems engineer with a strong foundation in 
-                modern programming languages and technologies. I love solving complex problems and building 
-                innovative solutions that make a real impact.
+                modern programming languages and technologies like Python, C++, Javascript, node.js, express.js, Generative-AI. I love solving complex problems and building 
+                innovative solutions that make a real impact. I'm a regular Leetcode practitioner and active learner.
               </p>
               
               <p className="text-lg text-muted-foreground leading-relaxed">
@@ -25,7 +25,7 @@ const AboutSection = () => {
               
               <div className="grid grid-cols-2 gap-6 pt-6">
                 <div className="text-center p-4 bg-card rounded-lg shadow-soft">
-                  <div className="text-2xl font-bold text-primary mb-2">3+</div>
+                  <div className="text-2xl font-bold text-primary mb-2">1</div>
                   <div className="text-sm text-muted-foreground">Years Experience</div>
                 </div>
                 <div className="text-center p-4 bg-card rounded-lg shadow-soft">
