@@ -1,4 +1,4 @@
-import { Calendar, MapPin } from "lucide-react";
+import { Calendar, MapPin, Download } from "lucide-react";
 
 const experiences = [
   {
@@ -13,7 +13,8 @@ const experiences = [
       "Deployed and maintained applications in Docker sandbox environments",
       "Developed and validated Robot Framework test cases over hosts and targets using QEMU which gave me an experience of debugging, reading logs and fixing bugs",
       "Learning involved working with python, bazel, linux CLI, RobotFramework, Automation Testing, Teamwork"
-    ]
+    ],
+    pdfPath: "/path/to/your/certificate.pdf" // Update this path with your actual PDF file
   }
 ];
 
@@ -74,6 +75,19 @@ const ExperienceSection = () => {
                         ))}
                       </ul>
                     </div>
+                    
+                    {exp.pdfPath && (
+                      <div className="mt-4 pt-4 border-t border-border">
+                        <a 
+                          href={exp.pdfPath}
+                          download
+                          className="inline-flex items-center px-4 py-2 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors"
+                        >
+                          <Download size={16} className="mr-2" />
+                          Download Certificate
+                        </a>
+                      </div>
+                    )}
                   </div>
                 </div>
               ))}
