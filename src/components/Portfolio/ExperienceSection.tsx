@@ -14,7 +14,7 @@ const experiences = [
       "Developed and validated Robot Framework test cases over hosts and targets using QEMU which gave me an experience of debugging, reading logs and fixing bugs",
       "Learning involved working with python, bazel, linux CLI, RobotFramework, Automation Testing, Teamwork"
     ],
-    pdfPath: "/path/to/your/certificate.pdf" // Update this path with your actual PDF file
+    pdfPath: "src/assets/Internship Certificate NOKIA Yogesh.pdf" // Update this path with your actual PDF file
   }
 ];
 
