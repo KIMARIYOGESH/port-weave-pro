@@ -101,17 +101,19 @@ const EducationSection = () => {
                     </div>
                     
                     <div className="grid md:grid-cols-2 gap-6 mt-4">
-                      <div>
-                        <h6 className="font-medium text-foreground mb-3">Achievements</h6>
-                        <ul className="space-y-1">
-                          {edu.achievements.map((achievement, achIndex) => (
-                            <li key={achIndex} className="text-muted-foreground text-sm flex items-start">
-                              <Award size={14} className="text-primary mr-2 mt-0.5 flex-shrink-0" />
-                              {achievement}
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
+                      {edu.achievements && edu.achievements.length > 0 && (
+                        <div>
+                          <h6 className="font-medium text-foreground mb-3">Achievements</h6>
+                          <ul className="space-y-1">
+                            {edu.achievements.map((achievement, achIndex) => (
+                              <li key={achIndex} className="text-muted-foreground text-sm flex items-start">
+                                <Award size={14} className="text-primary mr-2 mt-0.5 flex-shrink-0" />
+                                {achievement}
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
                       
                       <div>
                         <h6 className="font-medium text-foreground mb-3">Relevant Coursework</h6>
