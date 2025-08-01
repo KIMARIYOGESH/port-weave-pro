@@ -1,4 +1,5 @@
 import { Calendar, MapPin, Download } from "lucide-react";
+import nokiaLogo from "@/assets/nokia-logo.png";
 
 const experiences = [
   {
@@ -43,9 +44,16 @@ const ExperienceSection = () => {
                         <h3 className="text-xl font-semibold text-foreground mb-1">
                           {exp.title}
                         </h3>
-                        <h4 className="text-lg text-primary font-medium mb-2">
-                          {exp.company}
-                        </h4>
+                        <div className="flex items-center gap-3 mb-2">
+                          <img 
+                            src={nokiaLogo} 
+                            alt="Nokia logo" 
+                            className="h-6 w-auto"
+                          />
+                          <h4 className="text-lg text-primary font-medium">
+                            {exp.company}
+                          </h4>
+                        </div>
                       </div>
                       
                       <div className="flex flex-col md:text-right space-y-1">
