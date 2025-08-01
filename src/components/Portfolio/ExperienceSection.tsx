@@ -2,39 +2,17 @@ import { Calendar, MapPin } from "lucide-react";
 
 const experiences = [
   {
-    title: "Senior Software Developer",
-    company: "Tech Innovations Inc.",
-    location: "San Francisco, CA",
-    period: "2022 - Present",
-    description: "Lead development of scalable web applications using React and Node.js. Mentor junior developers and collaborate with cross-functional teams to deliver high-quality software solutions.",
+    title: "Software Development and Testing Engineer Intern",
+    company: "Nokia Networks",
+    location: "Chennai, India",
+    period: "Aug 2024 - May 2025",
+    description: "Developing Python and Bazel-based APIs for SDN migration while automating XML/XSLT management pipelines. Working with Docker environments and Robot Framework for comprehensive testing and validation.",
     achievements: [
-      "Improved application performance by 40% through code optimization",
-      "Led a team of 5 developers on a major product redesign",
-      "Implemented CI/CD pipeline reducing deployment time by 60%"
-    ]
-  },
-  {
-    title: "Full Stack Developer",
-    company: "Digital Solutions Ltd.",
-    location: "New York, NY",
-    period: "2020 - 2022",
-    description: "Developed and maintained full-stack applications using modern technologies. Worked closely with clients to understand requirements and deliver custom software solutions.",
-    achievements: [
-      "Built 12+ client applications with 99.9% uptime",
-      "Reduced development cycle time by 30% through automation",
-      "Mentored 3 junior developers and conducted code reviews"
-    ]
-  },
-  {
-    title: "Embedded Systems Engineer",
-    company: "IoT Dynamics Corp.",
-    location: "Austin, TX",
-    period: "2018 - 2020",
-    description: "Designed and developed embedded systems for IoT devices. Created firmware for microcontrollers and integrated hardware with cloud-based software platforms.",
-    achievements: [
-      "Developed firmware for 8 different IoT products",
-      "Reduced power consumption by 35% through optimization",
-      "Collaborated with hardware team on 15+ product launches"
+      "Developed Python and bazel based APIs for SDN migration, improving file management by 70%",
+      "Automated XML/XSLT management pipelines, reducing file duplication from 7,000+ to 2,000+ entries",
+      "Deployed and maintained applications in Docker sandbox environments",
+      "Developed and validated Robot Framework test cases over hosts and targets using QEMU which gave me an experience of debugging, reading logs and fixing bugs",
+      "Learning involved working with python, bazel, linux CLI, RobotFramework, Automation Testing, Teamwork"
     ]
   }
 ];
