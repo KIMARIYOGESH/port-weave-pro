@@ -40,19 +40,14 @@ const education = [
 
 const certifications = [
   {
-    title: "AWS Certified Solutions Architect",
-    issuer: "Amazon Web Services",
+    title: "AWS Academy Graduate - AWS Academy Machine Learning Foundations",
+    issuer: "AWS Academy",
     date: "2023"
   },
   {
-    title: "Professional Scrum Master I",
-    issuer: "Scrum.org",
-    date: "2022"
-  },
-  {
-    title: "React Developer Certification",
-    issuer: "Meta",
-    date: "2021"
+    title: "Crash Course on Python",
+    issuer: "an online non-credit course authorized by Google and offered through Coursera",
+    date: "2023"
   }
 ];
 

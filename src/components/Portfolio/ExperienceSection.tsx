@@ -14,7 +14,19 @@ const experiences = [
       "Developed and validated Robot Framework test cases over hosts and targets using QEMU which gave me an experience of debugging, reading logs and fixing bugs",
       "Learning involved working with python, bazel, linux CLI, RobotFramework, Automation Testing, Teamwork"
     ],
-    pdfPath: "src/assets/Internship Certificate NOKIA Yogesh.pdf" // Update this path with your actual PDF file
+    pdfPath: "src/assets/Internship Certificate NOKIA Yogesh.pdf"
+  },
+  {
+    title: "Research Intern",
+    company: "DRDO-ASL",
+    location: "Hyderabad, India",
+    period: "Dec 2023 - Jan 2024",
+    description: "Designed and developed radar seeker simulation models with interactive visual interfaces to demonstrate real-time lock-on behavior in a high-security research environment.",
+    achievements: [
+      "Designed a radar seeker simulation model using Python and MATLAB, increasing simulation clarity",
+      "Developed an interactive visual interface to demonstrate real-time lock-on behaviour using SUM and DIFFERENCE methods",
+      "Supported research in a high-security, offline environment with minimal tools, showcasing adaptability"
+    ]
   }
 ];
 
