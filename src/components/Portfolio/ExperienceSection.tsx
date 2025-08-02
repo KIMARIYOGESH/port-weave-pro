@@ -8,7 +8,7 @@ const experiences = [
     period: "Aug 2024 - May 2025",
     description: "Developing Python and Bazel-based APIs for SDN migration while automating XML/XSLT management pipelines. Working with Docker environments and Robot Framework for comprehensive testing and validation.",
     achievements: [
-      "Developed Python and bazel based APIs for SDN migration, improving file management by 70%",
+      "Developed Python and bazel based pipeline for optimising SDAN offline and online migration, improving file management by 70%",
       "Automated XML/XSLT management pipelines, reducing file duplication from 7,000+ to 2,000+ entries",
       "Deployed and maintained applications in Docker sandbox environments",
       "Developed and validated Robot Framework test cases over hosts and targets using QEMU which gave me an experience of debugging, reading logs and fixing bugs",
@@ -27,7 +27,7 @@ const experiences = [
       "Developed an interactive visual interface to demonstrate real-time lock-on behaviour using SUM and DIFFERENCE methods",
       "Supported research in a high-security, offline environment with minimal tools, showcasing adaptability"
     ],
-    pdfPath: "src/assets/DRDO Certificate.pdf"
+    pdfPath: "src/assets/DRDO ASL .pdf"
   }
 ];
 
