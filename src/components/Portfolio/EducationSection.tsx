@@ -40,14 +40,22 @@ const education = [
 
 const certifications = [
   {
+    title: "AWS Academy Graduate - AWS Academy Cloud Foundations",
+    issuer: "AWS Academy",
+    date: "06/09/2023",
+    link: "https://drive.google.com/file/d/1d_uWBFB_7p5eJh6nHSO92vdqnitYPGZf/view?usp=sharing"
+  },
+  {
     title: "AWS Academy Graduate - AWS Academy Machine Learning Foundations",
     issuer: "AWS Academy",
-    date: "2023"
+    date: "2023",
+    link: "https://drive.google.com/file/d/1d_uWBFB_7p5eJh6nHSO92vdqnitYPGZf/view?usp=sharing"
   },
   {
     title: "Crash Course on Python",
     issuer: "an online non-credit course authorized by Google and offered through Coursera",
-    date: "2023"
+    date: "2023",
+    link: "https://drive.google.com/file/d/1z7mmEB6qL82A-aK7ysbJikKC2WKDHueH/view?usp=sharing"
   }
 ];
 
@@ -143,16 +151,26 @@ const EducationSection = () => {
               
               <div className="space-y-4">
                 {certifications.map((cert, index) => (
-                  <div key={index} className="bg-card rounded-lg p-4 shadow-soft border border-border">
+                <div key={index} className="bg-card rounded-lg p-4 shadow-soft border border-border">
                     <h4 className="font-semibold text-foreground mb-2">
                       {cert.title}
                     </h4>
                     <p className="text-primary font-medium text-sm mb-1">
                       {cert.issuer}
                     </p>
-                    <p className="text-muted-foreground text-xs">
+                    <p className="text-muted-foreground text-xs mb-3">
                       Issued: {cert.date}
                     </p>
+                    {cert.link && (
+                      <a 
+                        href={cert.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center px-3 py-1 bg-primary text-primary-foreground rounded text-xs hover:bg-primary/90 transition-colors"
+                      >
+                        View Certificate
+                      </a>
+                    )}
                   </div>
                 ))}
               </div>

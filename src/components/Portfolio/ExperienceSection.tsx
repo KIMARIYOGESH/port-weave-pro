@@ -26,7 +26,8 @@ const experiences = [
       "Designed a radar seeker simulation model using Python and MATLAB, increasing simulation clarity",
       "Developed an interactive visual interface to demonstrate real-time lock-on behaviour using SUM and DIFFERENCE methods",
       "Supported research in a high-security, offline environment with minimal tools, showcasing adaptability"
-    ]
+    ],
+    pdfPath: "src/assets/DRDO Certificate.pdf"
   }
 ];
 
