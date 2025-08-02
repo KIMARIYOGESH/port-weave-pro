@@ -43,7 +43,7 @@ const certifications = [
     title: "AWS Academy Graduate - AWS Academy Cloud Foundations",
     issuer: "AWS Academy",
     date: "06/09/2023",
-    link: "https://drive.google.com/file/d/1d_uWBFB_7p5eJh6nHSO92vdqnitYPGZf/view?usp=sharing"
+    link: "https://drive.google.com/file/d/12ytSCOBIOPErAUhcIxh2QTQ0zLDGdS_Z/view?usp=sharing"
   },
   {
     title: "AWS Academy Graduate - AWS Academy Machine Learning Foundations",
