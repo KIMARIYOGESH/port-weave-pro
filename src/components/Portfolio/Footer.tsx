@@ -17,7 +17,7 @@ const Footer = () => {
             
             <div className="flex space-x-6">
               <a 
-                href="mailto:yogesh.kimari@email.com"
+                href="mailto:kimari3101@gmail.com"
                 className="group flex items-center justify-center w-12 h-12 bg-white/10 rounded-lg hover:bg-white/20 transition-all duration-300"
                 aria-label="Email"
               >
@@ -33,7 +33,7 @@ const Footer = () => {
                 <Linkedin className="group-hover:scale-110 transition-transform" size={20} />
               </a>
               <a 
-                href="https://github.com/yogeshkimari"
+                href="https://github.com/KIMARIYOGESH"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center justify-center w-12 h-12 bg-white/10 rounded-lg hover:bg-white/20 transition-all duration-300"
