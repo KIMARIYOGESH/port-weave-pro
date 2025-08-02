@@ -98,7 +98,7 @@ const EducationSection = () => {
                           <span className="text-sm">{edu.period}</span>
                         </div>
                         <div className="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm font-medium">
-                          GPA: {edu.gpa}
+                          {edu.degree.includes("Senior Secondary") ? "Percentage" : "GPA"}: {edu.gpa}
                         </div>
                       </div>
                     </div>
