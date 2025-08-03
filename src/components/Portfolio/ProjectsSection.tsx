@@ -6,29 +6,29 @@ import project2Image from "@/assets/project2-placeholder.jpg";
 
 const projects = [
   {
-    title: "E-Commerce Platform",
-    description: "A full-stack e-commerce solution built with React, Node.js, and PostgreSQL. Features include user authentication, payment processing, order management, and an admin dashboard.",
+    title: "Python Based Reverse Engineering and Material Characterization of Optoelectronic Devices",
+    description: "Advanced ML-driven material discovery platform that revolutionizes optoelectronic device development. Engineered custom Random Forest and Gradient Boosting models to intelligently predict optimal photosensor materials based on performance requirements. Built proprietary dataset from scratch and achieved exceptional 92% prediction accuracy, significantly accelerating R&D cycles.",
     image: project1Image,
-    technologies: ["React", "Node.js", "PostgreSQL", "Stripe", "Tailwind CSS"],
-    githubUrl: "https://github.com/yourusername/ecommerce-platform",
-    liveUrl: "https://your-ecommerce-demo.com"
+    technologies: ["Python", "Scikit-learn", "Random Forest", "Gradient Boosting", "Pandas", "NumPy"],
+    githubUrl: "https://github.com/KIMARIYOGESH/ML-project",
   },
   {
-    title: "IoT Home Automation System",
-    description: "Smart home control system using Arduino, Raspberry Pi, and React. Controls lighting, temperature, and security systems with real-time monitoring and mobile app integration.",
+    title: "HID - Rubber Ducky Using Raspberry Pi Pico",
+    description: "Advanced cybersecurity research tool engineered with Raspberry Pi Pico for penetration testing and security assessment. Developed sophisticated HID spoofing capabilities using CircuitPython and Adafruit libraries to simulate authentic keyboard inputs. Features automated payload execution, credential harvesting simulation, and system vulnerability assessment - demonstrating critical security awareness in modern computing environments.",
     image: project2Image,
-    technologies: ["Arduino", "Raspberry Pi", "React", "Python", "MQTT", "WebSocket"],
-    githubUrl: "https://github.com/yourusername/iot-home-system",
-    liveUrl: "https://your-iot-demo.com"
+    technologies: ["CircuitPython", "Raspberry Pi Pico", "Adafruit HID", "Hardware Security", "Penetration Testing", "Embedded Systems"],
+    githubUrl: "https://github.com/KIMARIYOGESH/EmbeddedProject",
   },
+  
   {
-    title: "Task Management App",
-    description: "Collaborative task management application with real-time updates, drag-and-drop functionality, team collaboration features, and comprehensive project tracking.",
+    title: "Port-Weave-Pro - Personal Portfolio Website",
+    description: "Modern, responsive portfolio website built with React and TypeScript, featuring smooth animations, dark/light theme support, and optimized performance. Showcases professional experience, technical projects, and skills through an intuitive single-page application with seamless navigation and mobile-first design.",
     image: project1Image,
-    technologies: ["React", "TypeScript", "Firebase", "Material-UI", "WebSocket"],
-    githubUrl: "https://github.com/yourusername/task-manager",
-    liveUrl: "https://your-taskmanager-demo.com"
+    technologies: ["React", "TypeScript", "Tailwind CSS", "Vite", "shadcn/ui", "lovable.dev"],
+    githubUrl: "https://github.com/KIMARIYOGESH/port-weave-pro",
+    liveUrl: ""
   }
+
 ];
 
 const ProjectsSection = () => {
