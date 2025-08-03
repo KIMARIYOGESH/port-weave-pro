@@ -14,7 +14,7 @@ const experiences = [
       "Developed and validated Robot Framework test cases over hosts and targets using QEMU which gave me an experience of debugging, reading logs and fixing bugs",
       "Learning involved working with python, bazel, linux CLI, RobotFramework, Automation Testing, Teamwork"
     ],
-    pdfPath: "src/assets/Internship Certificate NOKIA Yogesh.pdf"
+    pdfPath: "/Internship_Certificate_NOKIA_Yogesh.pdf"
   },
   {
     title: "Research Intern",
@@ -27,7 +27,7 @@ const experiences = [
       "Developed an interactive visual interface to demonstrate real-time lock-on behaviour using SUM and DIFFERENCE methods",
       "Supported research in a high-security, offline environment with minimal tools, showcasing adaptability"
     ],
-    pdfPath: "src/assets/DRDO ASL .pdf"
+    pdfPath: "/DRDO_ASL.pdf"
   }
 ];
 
